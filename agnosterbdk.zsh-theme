@@ -98,8 +98,7 @@ prompt_context() {
 
 # Battery Level
 prompt_battery() {
-#  HEART='♥ '
-HEART=$'\u1f50b' #TODO utf 8 ? 
+HEART='B'
   if [[ $(uname) == "Linux"  ]] ; then
 
     function battery_is_charging() {
