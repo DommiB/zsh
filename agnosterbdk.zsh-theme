@@ -1,11 +1,6 @@
-# vim:ft=zsh ts=2 sw=2 sts=2
-#
 # agnoster's Theme - https://gist.github.com/3712874
 
 CURRENT_BG='NONE'
-
-
-
 
 
 cdUndoKey() {
@@ -104,7 +99,7 @@ prompt_context() {
 # Battery Level
 prompt_battery() {
 #  HEART='♥ '
-HEART=$'\u1f50b'
+HEART=$'\u1f50b' #TODO utf 8 ? 
   if [[ $(uname) == "Linux"  ]] ; then
 
     function battery_is_charging() {
