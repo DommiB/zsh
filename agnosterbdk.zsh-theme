@@ -3,6 +3,7 @@
 CURRENT_BG='NONE'
 
 
+
 cdUndoKey() {
   popd      > /dev/null
   zle       reset-prompt
@@ -98,7 +99,7 @@ prompt_context() {
 
 # Battery Level
 prompt_battery() {
-HEART='B'
+HEART='🔋'
   if [[ $(uname) == "Linux"  ]] ; then
 
     function battery_is_charging() {
